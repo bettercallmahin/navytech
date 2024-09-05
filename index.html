@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- inter font family -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <!-- Outfit font family -->
+  <link href='https://fonts.googleapis.com/css?family=Outfit' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Plus Jakarta Sans' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- * ==================== header starts ================== -->
+  <header>
+    <nav>
+      <img class="site-logo" src="assets/Logo.png" alt=""> <!--site logo-->
+        <ul class="hide-on-mobile"> <!--menu starts-->
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#about-us">About Us</a></li>
+          <li><a href="#testimonial">Testimonial</a></li>
+          <img class="search-icon" src="assets/Icon Search.png" alt="">
+
+        </ul> <!--menu ends-->
+
+      <!-- responsive side bar starts -->
+      <ul class="sidebar">
+        <img src="assets/close.png" alt="" class="" onclick="hideSidebar()">
+        <li><a href="">Services</a></li>
+        <li><a href="">Portfolio</a></li>
+        <li><a href="">About Us</a></li>
+        <li><a href="">Testimonial</a></li>
+        <img class="search-icon" src="assets/Icon Search.png" alt="">
+      </ul>
+      <!-- responsive side bar ends -->
+      <button class="nav-btn"><img src="assets/call_icon.png" alt="">Talk to us</button>
+      <img src="assets/menu.png" alt="" class="menu-btn" onclick="showSidebar()">
+    </nav>
+  </header>
+  <!-- * ==================== header ends ================== -->
+
+  <!-- * =================== hero starts ================== * -->
+  <section id="hero">
+    <div class="hero-container">
+      <div class="hero-contents">
+        <h1>
+          #1 Worldwide Digital Solution Agency
+        </h1>
+        <p>
+          Revolutionize your global digital strategy with the #1 Worldwide Digital Solution Agency, pioneering
+          innovative
+          solutions for unparalleled success.
+        </p>
+        <button class="btn"><img src="assets/call_icon.png" alt=""> Book a call</button>
+        <div class="hero-features">
+          <div class="hero-feature">
+            <h2>75K+</h2>
+            <h6>Project Completed</h6>
+          </div>
+          <div class="hero-feature">
+            <h2>20+</h2>
+            <h6>Years of Experience</h6>
+          </div>
+          <div class="hero-feature">
+            <h2>400+</h2>
+            <h6>Clients Worldwide</h6>
+          </div>
+        </div>
+      </div>
+      <!-- hero image -->
+      <img src="assets/hero_img.png" alt="" class="hero-img">
+    </div>
+  </section>
+  <!-- * =================== hero ends ================== -->
+
+  <!-- * =================== social-proof starts ================== -->
+  <section id="social-proof">
+    <div class="social-proof-container">
+      <div class="social-proof-texts">
+        <h3>Trusted by</h3>
+        <h2>Top Companies</h2>
+      </div>
+      <div class="social-proof-logos">
+        <img src="assets/Google Logotype.png" alt="">
+        <img src="assets/Canva Logotype.png" alt="">
+        <img src="assets/Amazon Logotype.png" alt="">
+        <img src="assets/Sketch Logotype.png" alt="">
+      </div>
+    </div>
+  </section>
+  <!-- * =================== social-proof ends ================== -->
+
+  <!-- * =================== services starts ================== -->
+  <section id="services">
+    <div class="services-container">
+      <h4>Our services</h4>
+      <h2>Growth based services</h2>
+      <div class="services-contents">
+        <div class="services-content-1">
+          <img src="assets/services_icon (1).png" alt="">
+          <h3>Branding and UI/UX</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur. Quam diam augue lectus vivamus metus
+          </p>
+          <button class="view-details-btn">
+            View details
+            <img src="assets/CaretRight.png" alt="">
+          </button>
+        </div>
+        <div class="services-content-2">
+          <img src="assets/services_icon (2).png" alt="">
+          <h3>Web Development</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur. Quam diam augue lectus vivamus metus
+          </p>
+          <button class="view-details-btn">
+            View details
+            <img src="assets/CaretRight.png" alt="">
+          </button>
+        </div>
+        <div class="services-content-3">
+          <img src="assets/services_icon (3).png" alt="">
+          <h3>Mobile Development</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur. Quam diam augue lectus vivamus metus
+          </p>
+          <button class="view-details-btn">
+            View details
+            <img src="assets/CaretRight.png" alt="">
+          </button>
+        </div>
+        <div class="services-content-4">
+          <img src="assets/services_icon (4).png" alt="">
+          <h3>Digital Marketing</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur. Quam diam augue lectus vivamus metus
+          </p>
+          <button class="view-details-btn">
+            View details
+            <img src="assets/CaretRight.png" alt="">
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- * =================== services ends ================== -->
+
+  <!-- * =================== portfolio starts ================== -->
+  <section id="portfolio">
+    <div class="portfolio-container">
+      <div class="portfolio-header">
+        <h4>Portfolio</h4>
+        <h2>Our previous works</h2>
+      </div>
+      <div class="portfolio-img">
+        <div class="portfolio-img-top">
+          <img src="assets/portfolio_img (1).png" alt="">
+          <img src="assets/portfolio_img (2).png" alt="">
+          <img src="assets/portfolio_img (3).png" alt="">
+        </div>
+        <div class="portfolio-img-bottom">
+          <img src="assets/portfolio_img (4).png" alt="">
+          <img src="assets/portfolio_img (5).png" alt="">
+          <img src="assets/portfolio_img (6).png" alt="">
+        </div>
+      </div>
+      <button class="btn">View more <img src="assets/ArrowRight.png" alt=""></button>
+    </div>
+  </section>
+  <!-- * =================== portfolio ends ================== -->
+
+  <!-- * =================== about-us starts ================== -->
+  <section id="about-us">
+    <div class="about-us-container">
+      <div class="about-us-header">
+        <h4>About us</h4>
+        <h2>Why we are best</h2>
+      </div>
+      <div class="about-us-container-bottom">
+        <div class="about-us-images">
+          <div>
+            <img src="assets/about_us_image (1).png" alt="">
+            <img src="assets/about_us_image (2).png" alt="">
+          </div>
+          <img src="assets/about_us_image (3).png" alt="">
+        </div>
+        <div class="about-us-contents">
+          <p>
+            Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla volutpat lectus amet.
+            Integer
+            sed
+            pretium odio lectus at malesuada sed eget nunc. Viverra malesuada viverra id vel tortor dui adipiscing.
+            Bibendum cras
+            fringilla amet suspendisse. Duis mattis hac urna fames in ante.
+          </p>
+          <div class="about-us-content">
+            <img src="assets/vision_icon.png" alt="">
+            <div>
+              <h3>Our Vision</h3>
+              <p>Lorem ipsum dolor sit amet consectetur. Ut elementum ac eget at. Id et at dui arcu risus.</p>
+            </div>
+          </div>
+          <div class="about-us-content">
+            <img src="assets/mission_icon.png" alt="">
+            <div>
+              <h3>Our Mission</h3>
+              <p>Lorem ipsum dolor sit amet consectetur. Ut elementum ac eget at. Id et at dui arcu risus.</p>
+            </div>
+          </div>
+          <button class="btn">Read more <img src="assets/ArrowRight.png" alt=""></button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- * =================== about-us ends ================== -->
+
+  <!-- * =================== testimonial starts ================== -->
+  <section id="testimonial">
+    <div class="testimonial-container">
+      <div class="testimonial-container-header">
+        <h4>Testimonials</h4>
+        <h2>What our clients say</h2>
+      </div>
+      <div class="testimonial-container-contents">
+        <div class="testimonial-content">
+          <img src="assets/Quotes.png" alt="">
+          <p>
+            Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla volutpat lectus amet.
+            Integer sed
+            pretium odio lectus at malesuada sed eget nunc. Viverra malesuada viverra id vel tortor dui adipiscing.
+          </p>
+          <div class="client">
+            <img src="assets/client-image (1).png" alt="">
+            <div>
+              <h3>Michael Wong</h3>
+              <img src="assets/client-ratings (1).png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-content">
+          <img src="assets/Quotes.png" alt="">
+          <p>
+            Lorem ipsum dolor sit amet consectetur. Scelerisque urna vel sit dolor fringilla volutpat lectus amet.
+            Integer sed
+            pretium odio lectus at malesuada sed eget nunc. Viverra malesuada viverra id vel tortor dui adipiscing.
+          </p>
+          <div class="client">
+            <img src="assets/client-image (2).png" alt="">
+            <div>
+              <h3>Avril Song</h3>
+              <img src="assets/client-ratings (2).png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- * =================== testimonial ends ================== -->
+
+  <!-- * =================== blog starts ================== -->
+  <section id="blog">
+    <div class="blog-container">
+      <div class="blog-container-header">
+        <h4>Blog</h4>
+        <h2>Browse articles</h2>
+      </div>
+
+      <div class="articles">
+        <!-- single article starts -->
+        <div class="article">
+          <img class="article-img" src="assets/article_img (1).png" alt="">
+          <!-- article author details starts -->
+          <div class="article-author-details">
+            <div class="article-author">
+              <img src="assets/author (2).png" alt="">
+              <h6>John Doe</h6>
+            </div>
+            <div class="article-time">
+              <img src="assets/time.png" alt="">
+              <h6>Feb 23, 2024</h6>
+            </div>
+          </div>
+          <!-- article author details ends -->
+          <p>
+            Lorem ipsum dolor sit amet consectetur.
+          </p>
+          <button class="view-details-btn">
+            View details
+            <img src="assets/CaretRight.png" alt="">
+          </button>
+        </div>
+        <!-- single article ends -->
+        <!-- single article starts -->
+        <div class="article">
+          <img class="article-img" src="assets/article_img (2).png" alt="">
+          <!-- article author details starts -->
+          <div class="article-author-details">
+            <div class="article-author">
+              <img src="assets/author (2).png" alt="">
+              <h6>John Doe</h6>
+            </div>
+            <div class="article-time">
+              <img src="assets/time.png" alt="">
+              <h6>Feb 23, 2024</h6>
+            </div>
+          </div>
+          <!-- article author details ends -->
+          <p>
+            Lorem ipsum dolor sit amet consectetur.
+          </p>
+          <button class="view-details-btn">
+            View details
+            <img src="assets/CaretRight.png" alt="">
+          </button>
+        </div>
+        <!-- single article ends -->
+        <!-- single article starts -->
+        <div class="article">
+          <img class="article-img" src="assets/article_img (3).png" alt="">
+          <!-- article author details starts -->
+          <div class="article-author-details">
+            <div class="article-author">
+              <img src="assets/author (2).png" alt="">
+              <h6>John Doe</h6>
+            </div>
+            <div class="article-time">
+              <img src="assets/time.png" alt="">
+              <h6>Feb 23, 2024</h6>
+            </div>
+          </div>
+          <!-- article author details ends -->
+          <p>
+            Lorem ipsum dolor sit amet consectetur.
+          </p>
+          <button class="view-details-btn">
+            View details
+            <img src="assets/CaretRight.png" alt="">
+          </button>
+        </div>
+        <!-- single article ends -->
+
+      </div>
+      <button class="btn">Read more <img src="assets/ArrowRight.png" alt=""></button>
+    </div>
+  </section>
+  <!-- * =================== blog ends ================== -->
+
+  <!-- * =================== footer starts ================== -->
+  <footer>
+    <div class="footer-container">
+
+      <div class="navytech">
+        <div class="navytech-logo">
+          <img src="assets/Logo.png" alt="">
+          <h2>Navytech</h2>
+        </div>
+        <p>
+          hello@navytech.com <br>
+          Phone : +01 23456789
+        </p>
+        <div class="social-media">
+          <img src="assets/Facebook.png" alt="">
+          <img src="assets/Twitter.png" alt="">
+          <img src="assets/Instagram.png" alt="">
+          <img src="assets/Linkedin.png" alt="">
+          <img src="assets/Youtube.png" alt="">
+        </div>
+      </div>
+      
+      <div class="quick-links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Testimonial</a></li>
+        </ul>
+      </div>
+      
+      <div class="resources">
+        <h3>Resources</h3>
+        <ul>
+          <li><a href="#">Support</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+        </ul>
+      </div>
+      <div class="subscribe">
+        <h3>Subscribe</h3>
+        <div>
+          <img src="assets/email.png" alt="">
+          <input type="email" placeholder="name@domain.com">
+          <button class="btn">Send</button>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+  <!-- * =================== footer ends ================== -->
+
+  <script src="script.js"></script>
+</body>
+
+</html>
