@@ -406,6 +406,9 @@ nav ul li a {
 }
 
 .about-us-container {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
   max-width: 1280px;
   margin: 0 auto;
 }
