@@ -75,7 +75,15 @@ p {
   border-radius: 16px;
   background: var(--Brand-Color-Navy-Blue, #003BA4);
   cursor: pointer;
+  transition: transform 0.3s ease;
+  /* Add transition for smooth expand effect */
 }
+
+.btn:hover {
+  transform: scale(1.1);
+  /* Slightly increase the size on hover */
+}
+
 
 .nav-btn {
   display: flex;
