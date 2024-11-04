@@ -560,6 +560,40 @@ nav ul li a {
 
 /** ================= blog ends =================== */
 
+/** ================= packages starts ================= */
+
+#packages{
+  margin: 80px;
+}
+
+.card{
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  background: var(--Neutral-Color-White, #fce8e8);
+  border-radius: 24px;
+  padding: 48px;
+}
+
+.card-container{
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+.card button {
+  background: var(--Brand-Color-Bright-Blue, #09596d);
+  color: var(--Neutral-Color-White, #ffffff);
+  border: none;
+  padding: 8px 16px;
+  border-radius: 24px;
+  cursor: pointer;
+
+  font-family: Poppins;
+  font-size: 24px;
+}
+/** ================= packages ends ================= */
+
 
 /** ================= footer starts =================== */
 footer {
